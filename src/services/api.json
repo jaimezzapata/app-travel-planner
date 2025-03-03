@@ -1,0 +1,42 @@
+{
+  "viajes": [
+    {
+      "id": 1,
+      "pais_origen": "Colombia",
+      "moneda_origen": "COP",
+      "pais_destino": "Japón",
+      "ciudad_destino": "Tokio",
+      "fecha_salida": "2025-07-10",
+      "fecha_regreso": "2025-07-25",
+      "presupuesto": 8000000,
+      "moneda_destino": "JPY",
+      "tasa_conversion": 0.024,
+      "requisitos": [
+        {
+          "nombre": "Visa de turista",
+          "obligatorio": true
+        },
+        {
+          "nombre": "Vacuna contra fiebre amarilla",
+          "obligatorio": false
+        }
+      ],
+      "gastos": [
+        {
+          "id": 1,
+          "categoria": "Alojamiento",
+          "nombre_lugar": "Hotel Sakura",
+          "ciudad": "Tokio",
+          "fecha_ingreso": "2025-07-11",
+          "fecha_salida": "2025-07-18",
+          "dias": 7,
+          "descripcion": "Habitación doble con desayuno incluido",
+          "monto": 70000,
+          "moneda": "JPY",
+          "monto_convertido": 1680
+        }
+      ]
+    }
+  ],
+  "usuarios": []
+}
